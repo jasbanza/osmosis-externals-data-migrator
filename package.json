@@ -1,0 +1,32 @@
+{
+  "name": "osmosis-externals-data-migrator",
+  "version": "1.0.0",
+  "description": "Periodically push Osmosis's External Gauges data to MongoDB Atlas cloud deployment",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/osmosis-externals-data-migrator.git"
+  },
+  "keywords": [
+    "osmosis",
+    "data-migration",
+    "atlas",
+    "mongodb"
+  ],
+  "author": "jasbanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasbanza/osmosis-externals-data-migrator/issues"
+  },
+  "homepage": "https://github.com/jasbanza/osmosis-externals-data-migrator#readme",
+  "dependencies": {
+    "js-console-log-colors": "^1.1.0",
+    "mongodb": "^4.13.0",
+    "mongoose": "^6.8.4",
+    "node-fetch": "^2.6.8"
+  }
+}
